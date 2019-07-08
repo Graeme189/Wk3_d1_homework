@@ -29,6 +29,7 @@ INSERT INTO people (name) VALUES ('Crusty the Clown');
 INSERT INTO people (name) VALUES ('Montgomery Burns');
 INSERT INTO people (name) VALUES ('Mayor Joe Quimby');
 INSERT INTO people (name) VALUES ('Groundskeeper Willie');
+INSERT INTO people (name) VALUES ('Bart Simpson');
 
 INSERT INTO movies (title, year, show_time) VALUES ('Iron Man', 2008, '17:00');
 INSERT INTO movies (title, year, show_time) VALUES ('The Incredible Hulk', 2008, '23:55');
@@ -49,3 +50,38 @@ INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2',
 INSERT INTO movies (title, year, show_time) VALUES ('Spider-Man: Homecoming', 2017, '23:00');
 INSERT INTO movies (title, year, show_time) VALUES ('Thor: Ragnarok', 2017, '22:10');
 INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '21:00');
+INSERT INTO movies (title, show_time) VALUES ('Avengers: Infinity War', '00:00');
+
+-- SELECT * FROM movies;
+
+-- SELECT name FROM people;
+
+-- UPDATE people
+-- SET name = 'Krusty the Clown'
+-- WHERE id = 13;
+
+-- SELECT name
+-- FROM people
+-- where id = 1;
+
+-- DELETE FROM movies WHERE title = 'Batman Begins';
+
+-- INSERT INTO people (name) VALUES ('Bart Simpson');
+
+-- DELETE FROM people WHERE name = 'Eric Cartman';
+
+-- INSERT INTO movies (title, show_time) VALUES ('Avengers: Infinity War', '00:00');
+
+-- UPDATE movies
+-- SET show_time = '20.45'
+-- WHERE id = 7;
+
+-- DELETE FROM movies;
+
+-- DELETE FROM movies
+-- WHERE title like 'Iron%';
+
+-- DELETE FROM movies
+-- WHERE title in ('Black Panther', 'Doctor Strange', 'Ant-Man');
+--
+-- SELECT * FROM movies
